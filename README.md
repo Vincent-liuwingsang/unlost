@@ -2,10 +2,7 @@
 
 Semantically search your screen time
 
-Shout out to txtai which makes this a breeze and that guide.
-
-![](https://framerusercontent.com/images/oQh8ssIztpE4Ygq0Gqs9Qf9hpg.png)
-
+Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](https://kevinchen.co/blog/rewind-ai-app-teardown/) which makes building this easier.
 
 # Demo
 
@@ -26,7 +23,7 @@ record a demo for this
 
 # Quick Start
 
-install here and run
+install it from [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
 
 
 # Build locally
@@ -48,7 +45,7 @@ Unlost follows client-server which is unusual for desktop application. This make
 
 The UI is written in SwiftUI which is responsible for rendering the UI and ocr/storing screenshots.
 
-The server is written in python which is responsible for indexing screenshots/OCR results, providing endpoint for semantic searching. 
+The server is written in python which is responsible for indexing screenshots/OCR results, providing endpoint for semantic searching. A lot of heaving lifting from txtai.
 
 All the data is stored under ~/Documents/UnlostApp.nosync
 
