@@ -6,7 +6,7 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 
 # Demo
 
-record a demo for this
+![1709290288703](image/README/1709290288703.png)
 
 # Features
 
@@ -20,11 +20,9 @@ record a demo for this
 * local/provider llm integration (coming soon, help wanted)
 * remote server + storage in the cloud (coming soon, help wanted)
 
-
 # Quick Start
 
-install it from [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
-
+install [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
 
 # Build locally
 
@@ -34,7 +32,6 @@ install it from [here](https://github.com/Vincent-liuwingsang/unlost.github.io/r
    >
 2. Drag python bundle into XCode Resources and delete old one (only if it has changed)
 3. XCode Product > Archive, distribute app, custom, copy app
-
 
 # How it works
 
