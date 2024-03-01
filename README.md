@@ -1,6 +1,8 @@
-# Unlost
+<p align="center" dir="auto">
+    <img src="image/README/1709295607871.png" style="max-width: 100%;">
+</p>
 
-Open source alternative to Rewind AI.
+<p align='center'><b>Unlost: Open source alternative to Rewind AI.</b></p>
 
 Semantically search or ask questions about things you've seen
 
