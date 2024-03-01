@@ -8,7 +8,7 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 
 # Demo
 
-[`<img src="https://github.com/Vincent-liuwingsang/unlost/blob/main/demo/thumbnail.png?raw=true" width="100%" >`](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Demo in Loom")
+[<img src="https://github.com/Vincent-liuwingsang/unlost/blob/main/demo/thumbnail.png?raw=true" width="100%" >](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Demo in Loom")
 
 # Features
 
