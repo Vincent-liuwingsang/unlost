@@ -5,7 +5,7 @@ Semantically search your screen time
 Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](https://kevinchen.co/blog/rewind-ai-app-teardown/) which makes building this easier.
 
 # Demo
-[​​<img src="https://github.com/Vincent-liuwingsang/unlost/tree/main/demo/thumbnail.png" width="50%" >](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Now in Android: 55")
+[​​<img src="https://github.com/Vincent-liuwingsang/unlost/blob/main/demo/thumbnail.png?raw=true" width="50%" >](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Now in Android: 55")
 
 # Features
 
