@@ -17,7 +17,6 @@ from src.utils.state import (
     set_last_client_timestamp,
 )
 from src.utils.pos import get_date_condition
-from src.utils.migrate_0_6 import migrate_0_6
 
 app = FastAPI()
 
@@ -118,8 +117,6 @@ def run_api_server(doc_path=""):
     if doc_path:
         set_document_path(doc_path)
         set_logger_path(doc_path)
-
-    migrate_0_6()
 
     run(app, host="0.0.0.0", port=58000)
 

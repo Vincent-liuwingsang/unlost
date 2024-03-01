@@ -5,8 +5,7 @@ Semantically search your screen time
 Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](https://kevinchen.co/blog/rewind-ai-app-teardown/) which makes building this easier.
 
 # Demo
-
-[`<img src="https://github.com/Vincent-liuwingsang/unlost/tree/main/demo/thumbnail.png" width="50%">`](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Now in Android: 55")
+[​​<img src="https://github.com/Vincent-liuwingsang/unlost/tree/main/demo/thumbnail.png" width="50%" >](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Now in Android: 55")
 
 # Features
 
@@ -17,7 +16,7 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 
 * search through meeting transcripts
 * copy text from screenshot by cropping
-* local/provider llm integration (coming soon, help wanted)
+* local/provider llm/agent integration (coming soon, help wanted)
 * remote server + storage in the cloud (coming soon, help wanted)
 
 # Quick Start
@@ -39,6 +38,7 @@ Unlost follows client-server which is unusual for desktop application. This make
 
 1. add remote storage/server support which would take a lot of the work off your local machine. battery life yay.
 2. add SOTA/experimental AI stuff in python
+3. cross platform
 
 The UI is written in SwiftUI which is responsible for rendering the UI and ocr/storing screenshots.
 

@@ -1,0 +1,24 @@
+[tool.poetry]
+authors = ["Vincent-liuwingsang <wingsangvincentliu@gmail.com>"]
+description = ""
+name = "unlost-server"
+packages = [{include = "unlost_server"}]
+readme = "README.md"
+version = "0.6.1"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.27.1"
+fastapi = "^0.110.0"
+psutil = "^5.9.8"
+fastapi-utils = "^0.2.1"
+txtai = "6.0.0"
+nltk = "^3.8.1"
+dateparser = "^1.2.0"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl#sha256=83276fc78a70045627144786b52e1f2728ad5e29e5e43916ec37ea9c26a11212"}
+sentence-transformers = "2.2.2"
+torch = "2.0.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

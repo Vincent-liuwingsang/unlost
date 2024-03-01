@@ -66,7 +66,8 @@ class Embedding:
         if not document_path:
             return
         self.path = f"{document_path}/txtai"
-        self.instance.load(self.path)
+        if self.instance.exists(self.path):
+            self.instance.load(self.path)
 
     def persist(self):
         self.instance.save(self.path)
