@@ -30,12 +30,15 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 
 # Build locally
 
-1. Recompile python server(only if it has changed)
+1. run poetry install in server
+2. Recompile python server(only if it has changed)
 
    > python -m PyInstaller unlost_server.py -D -y --windowed --hidden-import=torch --hidden-import=unlost_server --collect-data torch --collect-data en_core_web_sm --copy-metadata torch --copy-metadata tqdm --copy-metadata regex  --copy-metadata requests --copy-metadata packaging --copy-metadata filelock --copy-metadata numpy --copy-metadata tokenizers --copy-metadata importlib_metadata --copy-metadata huggingface-hub --copy-metadata safetensors --copy-metadata pyyaml --exclude-module skl2onnx --add-data "query_classifier.pickle:."
    >
-2. Drag python bundle into XCode Resources and delete old one (only if it has changed)
-3. XCode Product > Archive, distribute app, custom, copy app
+3. Drag python bundle into XCode Resources and delete old one (only if it has changed)
+4. XCode Product > Archive, distribute app, custom, copy app
+
+If you want to make/test server changes locally, make sure to disable this line(https://github.com/Vincent-liuwingsang/unlost/blob/b212c4a08cb578fcd13ee5be1835f96ee24712e0/unlost-app/unlost/AppDelegate.swift#L38).
 
 # How it works
 
