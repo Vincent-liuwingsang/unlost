@@ -38,7 +38,8 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 3. Drag python bundle into XCode Resources and delete old one (only if it has changed)
 4. XCode Product > Archive, distribute app, custom, copy app
 
-If you want to make/test server changes locally, make sure to disable this line(https://github.com/Vincent-liuwingsang/unlost/blob/b212c4a08cb578fcd13ee5be1835f96ee24712e0/unlost-app/unlost/AppDelegate.swift#L38).
+If you want to make/test server changes locally, make sure to disable this line
+https://github.com/Vincent-liuwingsang/unlost/blob/b212c4a08cb578fcd13ee5be1835f96ee24712e0/unlost-app/unlost/AppDelegate.swift#L38
 
 # How it works
 
