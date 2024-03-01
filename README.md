@@ -1,27 +1,30 @@
 # Unlost
 
-Semantically search your screen time
+Open source alternative to Rewind AI.
+
+Semantically search or ask questions about things you've seen
 
 Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](https://kevinchen.co/blog/rewind-ai-app-teardown/) which makes building this easier.
 
 # Demo
-[​​<img src="https://github.com/Vincent-liuwingsang/unlost/blob/main/demo/thumbnail.png?raw=true" width="100%" >](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Demo in Loom")
+
+[`<img src="https://github.com/Vincent-liuwingsang/unlost/blob/main/demo/thumbnail.png?raw=true" width="100%" >`](https://www.loom.com/share/6054377ccf204418b5b743c781d7acae?sid=c20b607f-7749-4fe4-b344-d62d09e8aba1 "Demo in Loom")
 
 # Features
 
-* semantic searching your memory
-* filtering with dates/application in natural language
-
-> user interview questions from last week @chrome
-
-* search through meeting transcripts
-* copy text from screenshot by cropping
-* local/provider llm/agent integration (coming soon, help wanted)
-* remote server + storage in the cloud (coming soon, help wanted)
+* [X] semantic searching your memory
+* [X] filtering with dates/application in natural language (e.g. `user interview questions from last week @chrome`)
+* [X] search through meeting transcripts
+* [X] copy text from screenshot by cropping
+* [X] Open website from screenshot
+* [X] supports meeting transcripts from Zoom and Google Meet.
+* [ ] local/provider llm/agent integration (coming soon, help wanted)
+* [ ] remote server + storage in the cloud (coming soon, help wanted)
 
 # Quick Start
 
-install [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
+* install [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
+* `control + m` to toggle search
 
 # Build locally
 
