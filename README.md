@@ -25,7 +25,7 @@ Shout out to [txtai](https://github.com/neuml/txtai) and breakdown from [Kevin](
 
 # Quick Start
 
-* install [here](https://github.com/Vincent-liuwingsang/unlost.github.io/releases/download/prod/unlost.dmg) and run
+* install [here](https://github.com/Vincent-liuwingsang/unlost/releases/download/main/unlost.dmg) and run
 * `control + m` to toggle search
 
 # Build locally
